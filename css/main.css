@@ -35,8 +35,15 @@ body {
 	width:90%;
 	margin:10px auto;
 	border:5px solid orange;
-
+	padding-bottom:45px;
 }
+
+.button {
+	background-color: white;
+	padding:5px;
+	line-height: 30px;
+}
+
 
 /* HEADER ============================== */
 
@@ -153,4 +160,20 @@ header p {
 
 #featured img {
 	width:60%;
+	margin-bottom:20px;
 }
+
+/*component pieces*/
+
+#footer{background-color:#F2F2F2;
+width:100%;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 0px auto;
+text-align: center;
+
+}
+
+
+
+
