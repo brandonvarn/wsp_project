@@ -1,179 +1,248 @@
 /* Project CSS 
-============================================================
 ============================================================*/
-
+* {
+	margin: 0;
+	padding: 0;
+}
 body {
-	width:90%;
-	background-color:#676C6E;
-	margin: 10px auto;
-	overflow:auto;
-	color:white;
-	font-family: 'Lobster', cursive;
-	line-height:150%;
-	font-size:1em;
+	background-color: #676C6E;
+	overflow: auto;
+	color: white;
+	line-height: 150%;
+	font-size: 1em;
 }
-
 #wrapper {
-	width:100%;
-	background-color:black;
-	overflow:auto;
-	font-family: 'Lato', sans-serif;
+	max-width: 1024px;
+	background-color: black;
+	margin: 10px auto;
+	/*	font-family: 'Lato', sans-serif;*/
+	font-family: "Helvetica Neue", sans-serif;
+	;
+	border-radius: 10px;
+	padding: 10px 0 30px;
 }
-
-.left {float:left;}
-
-.right {float:right;}
-
-.clear {clear:both;}
-
-.marginleft{ margin-left:20px;}
-
-.margintop { margin-top:40px;}
-
+.clear {
+	clear: both;
+}
 .background {
-	background-color:#cbc8c9;
-	width:90%;
-	margin:10px auto;
-	border:5px solid orange;
-	padding-bottom:45px;
+	background-color: #cbc8c9;
+	width: 95%;
+	margin: 10px auto;
+	border: 5px solid orange;
+	padding-bottom: 45px;
 }
-
 .button {
-	background-color: white;
-	padding:5px;
-	line-height: 30px;
+	background-color: #000;
+	color: #fff;
+	display: inline-block;
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 7px 15px;
 }
-
-
+.button:hover {
+	background-color: white;
+	color: #000;
+}
+section {
+	width: 100%;
+	float: left;
+}
 /* HEADER ============================== */
 
 header {
 	font-family: 'Lobster', cursive;
-	overflow:auto;
-	border-bottom:2px solid;
+	overflow: auto;
+	border-bottom: 2px solid;
+	width: 95%;
+	margin: 0 auto 10px;
+	padding: 30px 0 10px;
 }
-
+.auother {
+	width: 45%;
+	float: left;
+	border-radius: 15px;
+	overflow: hidden;
+}
+.auother img {
+	width: 100%;
+}
+.auother_desc {
+	width: 55%;
+	float: left;
+	padding: 0 0px 0 30px;
+}
+.row {
+	width: 100%;
+	float: left;
+}
 header img {
-	width:40%;
-	height:100%;
+	width: 40%;
+	height: 100%;
 }
-
-header h1 {
-	margin:20px;
-	font-size:2em;
+.template_title {
+	width: 1024px;
+	margin: 30px auto 30px;
 }
-
+.template_title h1 {
+	font-size: 3em;
+	display: block;
+	font-family: "Helvetica Neue", sans-serif;
+	;
+}
+.template_title h1 span {
+	font-weight: bold;
+}
+.auother_desc h1 {
+	margin: 20px;
+	font-size: 2em;
+	font-family: "Helvetica Neue", sans-serif;
+	;
+}
 header p {
-	width:55%;
-	margin-left:10px;
-	font-size:1.1em;
+	margin-left: 10px;
+	font-size: 1.1em;
 }
-
 /* ABOUT ============================== */
 
 #about {
-	width: 95%;
-	margin-left:20px;
-	color:black;
-	margin-top:20px;
+	padding: 15px;
+	color: black;
 }
-
 #about h2 {
-	padding-top: 20px;
-	border-bottom:1px solid white;
-	width:30%;
-	margin-bottom:10px;
-	font-size:1.3em;
+	padding-bottom: 10px;
+	font-size: 28px;
+	font-weight: bold;
+	border-bottom: 2px solid #fff;
+	border-width: 2px;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
-
 #about p {
-	width:60%;
-
 }
-
 #about li {
-	margin-left:50px;
+	margin-left: 50px;
 }
-
-/* COMPONENTS ============================== */
+/*=========Component Section=============*/
 
 #components {
-	width: 95%;
-	margin-left:20px;
-	margin-top:20px;
-	color:black;
+	padding: 15px 15px;
+	color: black;
 }
-
 #components h2 {
-	padding-top: 20px;
-	border-bottom:1px solid white;
-	width:30%;
-	margin-bottom:10px;
-	font-size:1.3em;
+	padding-bottom: 10px;
+	font-size: 28px;
+	font-weight: bold;
+	width: 100%;
+	border-bottom: 2px solid #fff;
+	border-width: 2px;
+	font-size: 1.3em;
+	text-align: center;
+	text-transform: uppercase;
 }
-
 #components h3 {
-	padding-top:10px;
-	margin-bottom:10px;
+	font-size: 22px;
+	text-decoration: underline;
+	margin-bottom: 20px;
 	font-weight: bold;
-	margin-top:20px;
+	margin-top: 20px;
 }
-
 #components p {
-	width:60%;
-
 }
-
 #components li {
-	margin-left:50px;
+	margin-left: 50px;
 }
-
 #components ol {
-	margin-left:50px;
+	margin-left: 50px;
 }
-
 #components img {
-	width:40%;
 }
-
 #featured {
-	width: 95%;
-	margin-left:20px;
-	margin-top:20px;
-	color:black;
+	padding: 15px;
+	color: black;
 }
-
 #featured h2 {
-	padding-top: 20px;
-	border-bottom:1px solid white;
-	width:30%;
-	margin-bottom:10px;
-	font-size:1.3em;
-}
-
-#featured h3 {
-	padding-top:10px;
-	margin-bottom:10px;
+	font-size: 22px;
 	font-weight: bold;
-	margin-top:20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-decoration: underline;
 }
-
+#featured h3 {
+	padding-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	margin-top: 20px;
+}
 #featured img {
-	width:60%;
-	margin-bottom:20px;
+	width: 60%;
+	margin-bottom: 20px;
 }
+/*=========Footer Section=============*/
 
-/*component pieces*/
-
-#footer{background-color:#F2F2F2;
-width:100%;
-padding-top: 10px;
-padding-bottom: 10px;
-margin: 0px auto;
-text-align: center;
-
+#footer {
+	background-color: #F2F2F2;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px auto;
+	text-align: center;
 }
-
-
-
-
+.auother_desc p a {
+	color: #fff;
+	text-decoration: underline;
+}
+/*========Some uses CSS============*/
+.col-sm-5 {
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.col-sm-5 img {
+	height: auto;
+	opacity: 1;
+	padding: 0 1px 1px 0;
+	transition: all 1s ease 0s;
+}
+.col-sm-5:hover img {
+	opacity: 1;
+	transform: scale(1.1);
+}
+.col-sm-6 {
+	width: 50%;
+	float: left;
+}
+.col-sm-7 {
+	width: 100%;
+	float: left;
+	margin-bottom: 20px;
+}
+p {
+	margin-bottom: 10px;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+/*==============Media CSS ==================*/
+@media(max-width:767px) {
+.auother, .auother_desc {
+	width: 100%;
+	padding: 10px;
+}
+.col-sm-6 {
+	width: 100%;
+}
+#about h2 {
+	width: auto;
+}
+.template_title h1 {
+	display: block;
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 2em;
+	margin-left: 15px;
+}
+}
